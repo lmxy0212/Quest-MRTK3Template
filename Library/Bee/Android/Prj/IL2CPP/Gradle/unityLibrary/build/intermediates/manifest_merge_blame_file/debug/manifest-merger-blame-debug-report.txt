@@ -1,0 +1,214 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="auto" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="29"
+7-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+10-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-73
+10-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-70
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-65
+11-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-62
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-77
+12-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-74
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-69
+13-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:20-66
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-78
+14-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:20-75
+15
+16    <uses-feature
+16-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-111
+17        android:name="android.hardware.vr.headtracking"
+17-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-64
+18        android:required="true"
+18-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:85-108
+19        android:version="1" />
+19-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:65-84
+20    <uses-feature
+20-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-88
+21        android:name="oculus.software.handtracking"
+21-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-60
+22        android:required="false" />
+22-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:61-85
+23    <uses-feature
+23-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-90
+24        android:name="android.hardware.vulkan.version"
+24-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-63
+25        android:required="true" />
+25-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:64-87
+26    <uses-feature
+26-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-87
+27        android:name="android.hardware.microphone"
+27-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-59
+28        android:required="false" />
+28-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:60-84
+29    <uses-feature
+29-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-88
+30        android:name="android.hardware.touchscreen"
+30-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:17-60
+31        android:required="false" />
+31-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:61-85
+32    <uses-feature
+32-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:3-99
+33        android:name="android.hardware.touchscreen.multitouch"
+33-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:17-71
+34        android:required="false" />
+34-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:72-96
+35    <uses-feature
+35-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:3-108
+36        android:name="android.hardware.touchscreen.multitouch.distinct"
+36-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:17-80
+37        android:required="false" />
+37-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:81-105
+38
+39    <application
+39-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:3-38:17
+40        android:allowBackup="false"
+40-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:81-108
+41        android:extractNativeLibs="true"
+41-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:109-141
+42        android:icon="@mipmap/app_icon"
+42-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:49-80
+43        android:label="@string/app_name"
+43-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-48
+44        android:networkSecurityConfig="@xml/network_sec_config" >
+44-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:142-197
+45        <meta-data
+45-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-89
+46            android:name="unityplayer.SkipPermissionsDialog"
+46-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-64
+47            android:value="false" />
+47-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:65-86
+48        <meta-data
+48-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-97
+49            android:name="com.samsung.android.vr.application.mode"
+49-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-70
+50            android:value="vr_only" />
+50-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:71-94
+51        <meta-data
+51-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-87
+52            android:name="com.oculus.handtracking.frequency"
+52-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-64
+53            android:value="LOW" />
+53-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:65-84
+54        <meta-data
+54-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-86
+55            android:name="com.oculus.supportedDevices"
+55-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-58
+56            android:value="questpro" />
+56-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:59-83
+57        <meta-data
+57-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-69
+58            android:name="unity.splash-mode"
+58-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-48
+59            android:value="0" />
+59-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:49-66
+60        <meta-data
+60-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-74
+61            android:name="unity.splash-enable"
+61-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-50
+62            android:value="True" />
+62-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:51-71
+63        <meta-data
+63-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-78
+64            android:name="unity.launch-fullscreen"
+64-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-54
+65            android:value="True" />
+65-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:55-75
+66        <meta-data
+66-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-84
+67            android:name="unity.allow-resizable-window"
+67-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-59
+68            android:value="False" />
+68-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:60-81
+69        <meta-data
+69-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-81
+70            android:name="notch.config"
+70-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-43
+71            android:value="portrait|landscape" />
+71-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:44-78
+72        <meta-data
+72-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-84
+73            android:name="unity.auto-report-fully-drawn"
+73-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:16-60
+74            android:value="true" />
+74-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:61-81
+75
+76        <activity
+76-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:5-34:16
+77            android:name="com.unity3d.player.UnityPlayerActivity"
+77-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:222-275
+78            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+78-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:80-189
+79            android:excludeFromRecents="true"
+79-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:276-309
+80            android:exported="true"
+80-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:310-333
+81            android:hardwareAccelerated="false"
+81-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:407-442
+82            android:launchMode="singleTask"
+82-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:190-221
+83            android:resizeableActivity="false"
+83-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:372-406
+84            android:screenOrientation="landscape"
+84-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:334-371
+85            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+85-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:15-79
+86            <intent-filter>
+86-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:7-31:23
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:9-69
+87-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:19-66
+88                <category android:name="com.oculus.intent.category.VR" />
+88-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:9-66
+88-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:19-63
+89
+90                <action android:name="android.intent.action.MAIN" />
+90-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:9-61
+90-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-58
+91            </intent-filter>
+92
+93            <meta-data
+93-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:7-81
+94                android:name="com.oculus.vr.focusaware"
+94-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:18-57
+95                android:value="true" />
+95-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:58-78
+96            <meta-data
+96-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:7-70
+97                android:name="notch_support"
+97-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:18-46
+98                android:value="true" />
+98-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:47-67
+99        </activity>
+100
+101        <meta-data
+101-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:5-91
+102            android:name="com.unity.xr.oculus.LowOverheadMode"
+102-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:16-66
+103            android:value="false" />
+103-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:67-88
+104        <meta-data
+104-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:5-88
+105            android:name="com.unity.xr.oculus.LateLatching"
+105-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:16-63
+106            android:value="false" />
+106-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:64-85
+107        <meta-data
+107-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:5-93
+108            android:name="com.unity.xr.oculus.LateLatchingDebug"
+108-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:16-68
+109            android:value="false" />
+109-->D:\UnityProjects\MRTK3QuestTest\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:69-90
+110    </application>
+111
+112</manifest>
